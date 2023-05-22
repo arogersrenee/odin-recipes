@@ -1,10 +1,13 @@
 /* RESET */
 html {
     box-sizing: border-box;
+    
   }
   
   *, *:before, *:after {
     box-sizing: inherit;
+        border: 1px solid red;
+
   }
   
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -32,4 +35,44 @@ a {
 /* INDEX STYLES */
 body {
     font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+    background-color: rgb(242, 228, 255);
+    padding: 2em;
+    width: 60%;
+    margin: 0 auto;
+    max-width: 60em;
+    height: 100vh;
+    
+}
+.hero-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.page-header {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+ul {
+    text-align: center;
+    margin-top: 1em;
+}
+
+li {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0 1em 0;
+
+}
+
+a {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: rgb(71, 11, 127);
+    color: white;
+
 }

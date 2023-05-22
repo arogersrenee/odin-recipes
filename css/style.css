@@ -6,7 +6,6 @@ html {
   
   *, *:before, *:after {
     box-sizing: inherit;
-        border: 1px solid red;
 
   }
   
@@ -35,31 +34,39 @@ a {
 /* INDEX STYLES */
 body {
     font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
 }
 
 main {
-    background-color: rgb(242, 228, 255);
     padding: 2em;
     width: 60%;
     margin: 0 auto;
     max-width: 60em;
-    height: 100vh;
-    
 }
 .hero-image {
     display: block;
+    width: 80%;
     margin: 0 auto;
+    border-radius: 1em;
 }
 
 .page-header {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
-    font-weight: 900;
+    font-weight: 400;
+    margin-bottom: 1em;
+    color: rgb(169, 0, 71);
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
 }
 
 ul {
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 li {
@@ -72,7 +79,12 @@ li {
 a {
     display: inline-block;
     padding: 1em 2em;
-    background-color: rgb(71, 11, 127);
+    background-color: rgb(169, 0, 71);
     color: white;
+    border-radius: 100em;
+    letter-spacing: 0.025em;
+}
 
+a:hover {
+    background-color: rgb(106, 1, 54);
 }
